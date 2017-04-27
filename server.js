@@ -8,7 +8,7 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var port = process.env.PORT || 1337;
 //mongoose.connect('mongodb://localhost:27017/movieDatabase1');
-mongoose.connect('mongodb://webapigrader:webapigrader@ds161210.mlab.com:61210/movies')
+mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds161210.mlab.com:61210/movies')
 var Movie = require('./app/models/movie');
 //app configuration----------------------
 app.use(bodyParser.urlencoded({extended: true}));
