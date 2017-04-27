@@ -1,0 +1,140 @@
+{
+	"variables": [],
+	"info": {
+		"name": "HW4",
+		"_postman_id": "86003998-7d97-7f52-3bbf-e841690a1e0c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:1337/api",
+			"request": {
+				"url": "http://localhost:1337/api",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Ratatouille",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "year",
+							"value": "2007",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "actor",
+							"value": "Patton Oswalt,Brad Garrett,Brigit Bardeaux",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api",
+			"request": {
+				"url": "http://localhost:1337/api",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Ratatouille",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "year",
+							"value": "2007",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "actor",
+							"value": "Patton Oswalt,Brad Garrett,Brigit Bardeaux",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://nikkiyesalusky-test.apigee.net/HW4/api/movies",
+			"request": {
+				"url": "https://nikkiyesalusky-test.apigee.net/HW4/api/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Cars",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "year",
+							"value": "1995",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "actor",
+							"value": "Tom Hanks",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "actor",
+							"value": "Tim Allen",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "actor",
+							"value": "Don Rickles",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "I tried adding this way and also as ras JSON/application data and got the same timeout error"
+			},
+			"response": []
+		}
+	]
+}

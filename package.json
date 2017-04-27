@@ -1,0 +1,14 @@
+{
+  "name": "imdbish",
+  "version": "1.0.0",
+  "description": "move database-HW4",
+  "main": "server.js",
+  "dependencies": {
+    "express" : "~4.15.2",
+	"body-parser": "~1.17.1",
+	"morgan": "~1.8.1",
+	"mongoose": "~4.9.2"
+  },
+  "author": "Nikki Yesalusky",
+  "license": "MIT"
+}
